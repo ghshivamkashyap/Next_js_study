@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import LinkFile from "./LinkFile";
 
 export const metadata = {
   title: "About Next App",
@@ -10,9 +11,7 @@ const AboutPage = () => {
   return (
     <div>
       <h1>About Page</h1>
-      <Link className=" text-blue-500 text-xl ml-10" href={"/"}>
-        Home
-      </Link>
+      <LinkFile />
     </div>
   );
 };
